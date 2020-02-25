@@ -1,4 +1,4 @@
-module github.com/carmel/base64Captcha
+module github.com/Owen-Zhang/base64Captcha
 
 go 1.12
 
