@@ -1,3 +1,5 @@
+github.com/carmel/base64Captcha v0.0.0-20190627152310-ef81ea7f260a h1:DEt9krP99D1BPYAUVijebpj9LWz1CS7SQu5GGZcbFT0=
+github.com/carmel/base64Captcha v0.0.0-20190627152310-ef81ea7f260a/go.mod h1:uoxonazNiQv8+Nw5ENn54fbh+89K3HX4T/pN7eAW7dU=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/fsnotify/fsnotify v1.4.7 h1:IXs+QLmnXW2CcXuY+8Mzv/fWEsPGWxqefPtCP5CnV9I=

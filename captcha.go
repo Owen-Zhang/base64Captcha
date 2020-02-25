@@ -194,7 +194,7 @@ func GenerateCaptcha(idKey string, configuration interface{}) (id string, captch
 
 	globalStore.Set(idKey, verifyValue)
 
-	return idKey, captchaInstance
+	return idKey, captchaInstance, verifyValue
 }
 
 func pathExists(path string) bool {
