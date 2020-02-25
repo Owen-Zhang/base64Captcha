@@ -166,12 +166,12 @@ func VerifyCaptchaAndIsClear(identifier, verifyValue string, isClear bool) bool 
 // 	idKeyD,capD := base64Captcha.GenerateCaptcha("",configD)
 // 	//write to base64 string.
 // 	base64stringD := base64Captcha.CaptchaWriteToBase64Encoding(capD)
-func GenerateCaptcha(idKey string, configuration interface{}) (id string, captchaInstance CaptchaInterface) {
+func GenerateCaptcha(idKey string, configuration interface{}) (id string, captchaInstance CaptchaInterface, verifyValue string) {
 	if idKey == "" {
 		idKey = randomId()
 	}
 	id = idKey
-	var verifyValue string
+	//var verifyValue string
 	switch config := configuration.(type) {
 	case ConfigAudio:
 		audio := EngineAudioCreate(idKey, config)
